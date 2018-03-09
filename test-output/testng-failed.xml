@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="cnbc(failed)">
+    <classes>
+      <class name="com.USICS.testcases.videos">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.videos -->
+      <class name="com.USICS.testcases.market">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.market -->
+      <class name="com.USICS.testcases.cnbc">
+        <methods>
+          <include name="TestA" invocation-numbers="0 1 2"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.cnbc -->
+    </classes>
+  </test> <!-- cnbc(failed) -->
+  <test name="market(failed)">
+    <classes>
+      <class name="com.USICS.testcases.videos">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.videos -->
+      <class name="com.USICS.testcases.market">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestA" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.market -->
+      <class name="com.USICS.testcases.cnbc">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.cnbc -->
+    </classes>
+  </test> <!-- market(failed) -->
+  <test name="videos(failed)">
+    <classes>
+      <class name="com.USICS.testcases.videos">
+        <methods>
+          <include name="TestC" invocation-numbers="0 1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.videos -->
+      <class name="com.USICS.testcases.market">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.market -->
+      <class name="com.USICS.testcases.cnbc">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.USICS.testcases.cnbc -->
+    </classes>
+  </test> <!-- videos(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->

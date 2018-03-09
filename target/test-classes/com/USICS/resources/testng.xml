@@ -1,0 +1,29 @@
+<suite name="SuiteName">
+	
+	
+	<test name="cnbc" allow-return-values="true">
+		<classes>
+			<class name="com.USICS.testcases.cnbc" />
+		</classes>
+	</test>
+	
+	<test name="market" allow-return-values="true">
+		<classes>
+			<class name="com.USICS.testcases.market" />
+		</classes>
+	</test>
+	
+	<test name="videos" allow-return-values="true">
+		<classes>
+			<class name="com.USICS.testcases.videos" />
+		</classes>
+	</test>
+	
+	<test name="SendMail" allow-return-values="true">
+		<classes>
+			<class name="com.USICS.mail.SendMail" />
+		</classes>
+	</test>
+	
+</suite>
+
